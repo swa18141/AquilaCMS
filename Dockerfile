@@ -1,4 +1,4 @@
-FROM almalinux:latest
+FROM aquilacms/aquilacms:latest
 WORKDIR /src
 EXPOSE 3010
 COPY . /src
